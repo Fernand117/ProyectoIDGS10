@@ -1,4 +1,4 @@
-const express = requite("express");
+const express = require("express"); // corregido 'requite' a 'require'
 const app = express();
 const port = 3000;
 
@@ -7,6 +7,32 @@ app.get('/', (req, res) => {
   res.send('¡Hola! Esta es mi primera API con Express 🚀');
 });
 
+// Nueva ruta raíz
+app.get('/', (req, res) => {
+  res.send('¡Hola! Esta es mi primera API con Express 🚀');
+});
+
+// Nueva ruta raíz
+app.get('/', (req, res) => {
+  res.send('¡Hola! Esta es mi primera API con Express 🚀');
+});
+
+// Nueva ruta raíz
+app.get('/', (req, res) => {
+  res.send('¡Hola! Esta es mi primera API con Express 🚀');
+});
+
+// Nueva ruta raíz
+app.get('/', (req, res) => {
+  res.send('¡Hola! Esta es mi primera API con Express 🚀');
+});
+
+// Ruta raíz
+app.get('/', (req, res) => {
+  res.send('¡Hola desde la API!');
+});
+
+// Inicio del servidor
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
     console.log(`ALOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO`);
@@ -74,4 +100,5 @@ app.listen(port, () => {
 
   console.log(`log de Fernando Leyva`);
   console.log(`Adios mundo uwu`);
+  console.log(`Servidor escuchando en http://localhost:${port}`);
 });
