@@ -1,7 +1,7 @@
-const express = requite('express');
+const express = require('express');
 const app = express();
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`API TEST`);
+  console.log('🚀 API iniciada correctamente');
 });
