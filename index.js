@@ -1,4 +1,6 @@
-const express = requite('express');
+
+
+const express = require('express'); //cambio de requite a require 
 const app = express();
 const port = 3000;
 
