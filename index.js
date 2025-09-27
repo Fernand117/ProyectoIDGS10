@@ -4,6 +4,7 @@ const port = 3000;
 
 app.listen(port, () => {
   console.log(`API TEST`);
+  console.log("Hola Mundo de Alicia 👋🏻");
   console.log("Hola Mundo de Emersson 🤖");
 
   /*                                                                                                                                                                                                                                                                                                                                                                          
